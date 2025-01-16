@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "scripts": {
+    "build:tailwind": "npx tailwindcss -i ./portal-pages/tailwind-i.css -o ./portal-pages/tailwind-o.css --watch"
+  }
+}

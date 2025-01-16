@@ -1,0 +1,11 @@
+# Node.js dependencies
+/node_modules/
+
+# npm package lock files (optional)
+package-lock.json
+yarn.lock
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
