@@ -28,12 +28,12 @@
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1>Daftar Mekanik</h1>
+              <h1>Team Mekanik</h1>
             </div>
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
                 <!-- <li class="breadcrumb-item"><a href="#">Daftar Mekanik</a></li> -->
-                <li class="breadcrumb-item active">Daftar Mekanik</li>
+                <li class="breadcrumb-item active">Team Mekanik</li>
               </ol>
             </div>
           </div>
@@ -46,7 +46,7 @@
         <!-- Default box -->
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title">List Mekanik</h3>
+            <h3 class="card-title">List Team Mekanik</h3>
 
             <div class="card-tools">
               <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -65,13 +65,13 @@
                     #
                   </th>
                   <th style="width: 20%">
-                    Project Name
+                    Team Name
                   </th>
                   <th style="width: 30%">
                     Team Members
                   </th>
                   <th>
-                    Project Progress
+                     
                   </th>
                   <th style="width: 8%" class="text-center">
                     Status
@@ -83,7 +83,7 @@
               <tbody>
                 <tr>
                   <td>
-                    #
+                    1
                   </td>
                   <td>
                     <a>
