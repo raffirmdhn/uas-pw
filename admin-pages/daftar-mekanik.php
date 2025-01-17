@@ -87,11 +87,11 @@
                   </td>
                   <td>
                     <a>
-                      AdminLTE v3
+                      Team Hore
                     </a>
                     <br />
                     <small>
-                      Created 01.01.2019
+                      Created 01.05.2015
                     </small>
                   </td>
                   <td>
@@ -111,16 +111,10 @@
                     </ul>
                   </td>
                   <td class="project_progress">
-                    <div class="progress progress-sm">
-                      <div class="progress-bar bg-green" role="progressbar" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100" style="width: 57%">
-                      </div>
-                    </div>
-                    <small>
-                      57% Complete
-                    </small>
+                    
                   </td>
                   <td class="project-state">
-                    <span class="badge badge-success">Success</span>
+                    <span>Full</span>
                   </td>
                   <td class="project-actions text-right">
                     <a class="btn btn-info btn-sm" href="edit-mekanik.php?id=1">
@@ -128,7 +122,7 @@
                       </i>
                       Edit
                     </a>
-                    <a class="btn btn-danger btn-sm" href="#" onclick="confirm('Hapus data mekanik?') && alert('Mekanik berhasil dihapus!')">
+                    <a class="btn btn-danger btn-sm" href="#" onclick="confirm('Hapus Team Hore?') && alert('Mekanik Team Hore berhasil dihapus!')">
                       <i class="fas fa-trash">
                       </i>
                       Delete
@@ -137,15 +131,15 @@
                 </tr>
                 <tr>
                   <td>
-                    #
+                    2
                   </td>
                   <td>
                     <a>
-                      AdminLTE v3
+                      Team Sukses
                     </a>
                     <br />
                     <small>
-                      Created 01.01.2019
+                      Created 06.05.2017
                     </small>
                   </td>
                   <td>
@@ -159,16 +153,10 @@
                     </ul>
                   </td>
                   <td class="project_progress">
-                    <div class="progress progress-sm">
-                      <div class="progress-bar bg-green" role="progressbar" aria-valuenow="47" aria-valuemin="0" aria-valuemax="100" style="width: 47%">
-                      </div>
-                    </div>
-                    <small>
-                      47% Complete
-                    </small>
+                    
                   </td>
                   <td class="project-state">
-                    <span class="badge badge-success">Success</span>
+                    <span>-2</span>
                   </td>
                   <td class="project-actions text-right">
                     <a class="btn btn-info btn-sm" href="edit-mekanik.php?id=2">
@@ -185,15 +173,15 @@
                 </tr>
                 <tr>
                   <td>
-                    #
+                    3
                   </td>
                   <td>
                     <a>
-                      AdminLTE v3
+                      Team Alakadarnya
                     </a>
                     <br />
                     <small>
-                      Created 01.01.2019
+                      Created 09.07.2019
                     </small>
                   </td>
                   <td>
@@ -210,16 +198,10 @@
                     </ul>
                   </td>
                   <td class="project_progress">
-                    <div class="progress progress-sm">
-                      <div class="progress-bar bg-green" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100" style="width: 77%">
-                      </div>
-                    </div>
-                    <small>
-                      77% Complete
-                    </small>
+                    
                   </td>
                   <td class="project-state">
-                    <span class="badge badge-success">Success</span>
+                    <span>-1</span>
                   </td>
                   <td class="project-actions text-right">
                     <a class="btn btn-info btn-sm" href="edit-mekanik.php?id=3">
@@ -244,6 +226,7 @@
       </section>
       <!-- /.content -->
     </div>
+
     <!-- /.content-wrapper -->
 
     <!-- footer -->
