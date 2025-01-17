@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daftar Transaksi | Bengkel</title>
+
+    <?php include_once 'head.php' ?>
+</head>
+
+<body class="hold-transition sidebar-mini">
+    <!-- Site wrapper -->
+    <div class="wrapper">
+        <!-- Navbar -->
+        <?php include_once 'navbar.php' ?>
+        <!-- /.navbar -->
+
+        <!-- Main Sidebar Container -->
+        <?php include_once 'sidebar.php' ?>
+        <!-- /.Main Sidebar Container -->
+
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h1>Daftar Transaksi</h1>
+                        </div>
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right">
+                                <!-- <li class="breadcrumb-item"><a href="#">Daftar Transaksi</a></li> -->
+                                <li class="breadcrumb-item active">Daftar Transaksi</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div><!-- /.container-fluid -->
+            </section>
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="row">
+                    <div class="col-12">
+
+                        <!-- Default box -->
+                        <div class="card card-danger">
+                            <div class="card-header">
+                                <h3 class="card-title">Input masks</h3>
+                            </div>
+                            <div class="card-body">
+                                <!-- Date dd/mm/yyyy -->
+                                <div class="form-group">
+                                    <label>Tanggal</label>
+        
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" data-inputmask-alias="datetime"
+                                            data-inputmask-inputformat="dd/mm/yyyy" data-mask>
+                                    </div>
+                                    <!-- /.input group -->
+                                </div>
+                                <!-- /.form group -->
+        
+                                <!-- Date mm/dd/yyyy -->
+                                <div class="form-group">
+                                    <label>Nama</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fas fa-users"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <!-- /.input group -->
+                                </div>
+                                <!-- /.form group -->
+        
+                                <!-- phone mask -->
+                                <div class="form-group">
+                                    <label>Nopol: </label>
+        
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fa-solid fa-barcode"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <!-- /.input group -->
+                                </div>
+                                <!-- /.form group -->
+        
+                                <!-- phone mask -->
+                                <div class="form-group">
+                                    <label>Kategori</label>
+        
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fa-solid fa-car"></i></span>
+                                        </div>
+                                        <select class="form-control">Motor</select> 
+                                        <select class="form-control">Motor</select> 
+                                        <select class="form-control">Minibus</select> 
+                                    </div>
+                                    <!-- /.input group -->
+                                </div>
+                                <!-- /.form group -->
+        
+                                <!-- IP mask -->
+                                <div class="form-group">
+                                    <label>IP mask:</label>
+        
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fas fa-laptop"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" data-inputmask="'alias': 'ip'" data-mask>
+                                    </div>
+                                    <!-- /.input group -->
+                                </div>
+                                <!-- /.form group -->
+        
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                </div>
+
+
+            </section>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+
+        <!-- footer -->
+        <?php include_once 'footer.php' ?>
+        <!-- /.footer -->
+    </div>
+    <!-- ./wrapper -->
+
+    <?php include_once 'scripts.php' ?>
+</body>
+
+</html>
