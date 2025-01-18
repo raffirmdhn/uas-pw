@@ -247,67 +247,93 @@
                     <div class="col-md-3 col-sm-6 mb-3">
                       <div class="card text-center">
                         <div class="card-body">
-                          <img src="https://via.placeholder.com/150" class="rounded-circle img-fluid" width="120" alt="Mekanik 1">
-                          <h5 class="mt-3">Mekanik 1</h5>
-                          <p>Spesialisasi A</p>
+                          <img src="../dist/img/avatar.png" class="rounded-circle img-fluid" width="120" alt="Mekanik 1">
+                          <h5 class="mt-3">Sumanto</h5>
+                          <p>Spesialis Service Motor</p>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-3 col-sm-6 mb-3">
                       <div class="card text-center">
                         <div class="card-body">
-                          <img src="https://via.placeholder.com/150" class="rounded-circle img-fluid" width="120" alt="Mekanik 2">
-                          <h5 class="mt-3">Mekanik 2</h5>
-                          <p>Spesialisasi B</p>
+                          <img src="../dist/img/avatar2.png" class="rounded-circle img-fluid" width="120" alt="Mekanik 2">
+                          <h5 class="mt-3">Sumarni</h5>
+                          <p>Spesialis Kirian</p>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-3 col-sm-6 mb-3">
                       <div class="card text-center">
                         <div class="card-body">
-                          <img src="https://via.placeholder.com/150" class="rounded-circle img-fluid" width="120" alt="Mekanik 3">
-                          <h5 class="mt-3">Mekanik 3</h5>
-                          <p>Spesialisasi C</p>
+                          <img src="../dist/img/avatar3.png" class="rounded-circle img-fluid" width="120" alt="Mekanik 3">
+                          <h5 class="mt-3">Rafi Ramadhan T.</h5>
+                          <p>Spesialis Repaint</p>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-3 col-sm-6 mb-3">
                       <div class="card text-center">
                         <div class="card-body">
-                          <img src="https://via.placeholder.com/150" class="rounded-circle img-fluid" width="120" alt="Mekanik 4">
-                          <h5 class="mt-3">Mekanik 4</h5>
-                          <p>Spesialisasi D</p>
+                          <img src="../dist/img/avatar4.png" class="rounded-circle img-fluid" width="120" alt="Mekanik 4">
+                          <h5 class="mt-3">Agung</h5>
+                          <p>Magang</p>
                         </div>
                       </div>
                     </div>
                   </div>
+
+                  <hr>
 
                   <div class="row justify-content-center">
                     <!-- 3 Card di Baris Kedua -->
                     <div class="col-md-4 col-sm-6 mb-3">
                       <div class="card text-center">
                         <div class="card-body">
-                          <img src="https://via.placeholder.com/150" class="rounded-circle img-fluid" width="120" alt="Mekanik 5">
-                          <h5 class="mt-3">Mekanik 5</h5>
-                          <p>Spesialisasi E</p>
+                          <img src="../dist/img/avatar.png" class="rounded-circle img-fluid" width="120" alt="Mekanik 5">
+                          <h5 class="mt-3">Agus</h5>
+                          <p>Spesialis Service Mobil</p>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4 col-sm-6 mb-3">
                       <div class="card text-center">
                         <div class="card-body">
-                          <img src="https://via.placeholder.com/150" class="rounded-circle img-fluid" width="120" alt="Mekanik 6">
-                          <h5 class="mt-3">Mekanik 6</h5>
-                          <p>Spesialisasi F</p>
+                          <img src="../dist/img/avatar2.png" class="rounded-circle img-fluid" width="120" alt="Mekanik 6">
+                          <h5 class="mt-3">Marni</h5>
+                          <p>Spesialis Ganti Oli</p>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4 col-sm-6 mb-3">
                       <div class="card text-center">
                         <div class="card-body">
-                          <img src="https://via.placeholder.com/150" class="rounded-circle img-fluid" width="120" alt="Mekanik 7">
-                          <h5 class="mt-3">Mekanik 7</h5>
-                          <p>Spesialisasi G</p>
+                          <img src="../dist/img/avatar3.png" class="rounded-circle img-fluid" width="120" alt="Mekanik 7">
+                          <h5 class="mt-3">Haydar</h5>
+                          <p>Spesialis Cek Mesin</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <hr>
+
+                  <div class="row justify-content-center">
+                    <!-- 3 Card di Baris Kedua -->
+                    <div class="col-md-5 col-sm-6 mb-3">
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <img src="../dist/img/avatar.png" class="rounded-circle img-fluid" width="120" alt="Mekanik 5">
+                          <h5 class="mt-3">Yanto</h5>
+                          <p>Spesialis Service Ringan</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-3">
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <img src="../dist/img/avatar2.png" class="rounded-circle img-fluid" width="120" alt="Mekanik 6">
+                          <h5 class="mt-3">Nunur</h5>
+                          <p>Spesialis Service Berat</p>
                         </div>
                       </div>
                     </div>
@@ -315,10 +341,6 @@
 
                 </div>
                 <!-- /.card-body -->
-                <div class="card-footer">
-                  Footer
-                </div>
-                <!-- /.card-footer -->
               </div>
               <!-- /.card -->
             </div>
