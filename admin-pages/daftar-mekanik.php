@@ -28,12 +28,12 @@
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1>Team Mekanik</h1>
+              <h1>List Mekanik</h1>
             </div>
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
                 <!-- <li class="breadcrumb-item"><a href="#">Daftar Mekanik</a></li> -->
-                <li class="breadcrumb-item active">Team Mekanik</li>
+                <li class="breadcrumb-item active">Team Mekanik | Detail Mekanik</li>
               </ol>
             </div>
           </div>
@@ -222,11 +222,111 @@
           <!-- /.card-body -->
         </div>
         <!-- /.card -->
+      </section>
 
+      <section class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <!-- Default Box -->
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="card-title">List Member Mekanik</h3>
+                  <div class="card-tools">
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                    <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+                      <i class="fas fa-times"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    <!-- 4 Card di Baris Pertama -->
+                    <div class="col-md-3 col-sm-6 mb-3">
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <img src="https://via.placeholder.com/150" class="rounded-circle img-fluid" width="120" alt="Mekanik 1">
+                          <h5 class="mt-3">Mekanik 1</h5>
+                          <p>Spesialisasi A</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-3">
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <img src="https://via.placeholder.com/150" class="rounded-circle img-fluid" width="120" alt="Mekanik 2">
+                          <h5 class="mt-3">Mekanik 2</h5>
+                          <p>Spesialisasi B</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-3">
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <img src="https://via.placeholder.com/150" class="rounded-circle img-fluid" width="120" alt="Mekanik 3">
+                          <h5 class="mt-3">Mekanik 3</h5>
+                          <p>Spesialisasi C</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-3">
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <img src="https://via.placeholder.com/150" class="rounded-circle img-fluid" width="120" alt="Mekanik 4">
+                          <h5 class="mt-3">Mekanik 4</h5>
+                          <p>Spesialisasi D</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row justify-content-center">
+                    <!-- 3 Card di Baris Kedua -->
+                    <div class="col-md-4 col-sm-6 mb-3">
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <img src="https://via.placeholder.com/150" class="rounded-circle img-fluid" width="120" alt="Mekanik 5">
+                          <h5 class="mt-3">Mekanik 5</h5>
+                          <p>Spesialisasi E</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-3">
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <img src="https://via.placeholder.com/150" class="rounded-circle img-fluid" width="120" alt="Mekanik 6">
+                          <h5 class="mt-3">Mekanik 6</h5>
+                          <p>Spesialisasi F</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-3">
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <img src="https://via.placeholder.com/150" class="rounded-circle img-fluid" width="120" alt="Mekanik 7">
+                          <h5 class="mt-3">Mekanik 7</h5>
+                          <p>Spesialisasi G</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer">
+                  Footer
+                </div>
+                <!-- /.card-footer -->
+              </div>
+              <!-- /.card -->
+            </div>
+          </div>
+        </div>
       </section>
       <!-- /.content -->
     </div>
-
     <!-- /.content-wrapper -->
 
     <!-- footer -->
