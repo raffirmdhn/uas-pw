@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Service Booking - Bengkel SiGanteng</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="tailwind-o.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <body class="font-sans">
+    <!-- Header -->
+    <header class="bg-gray-100 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Bengkel SiGanteng</h1>
+        <div class="flex items-center space-x-4">
+          <input type="text" placeholder="search" class="border rounded px-2 py-1" />
+          <a href="login.html" class="text-blue-500">Login</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-gray-200 py-2">
+      <div class="container mx-auto flex space-x-4">
+        <a href="home.html" class="text-gray-700 hover:text-blue-500">Home</a>
+        <a href="produk-layanan.html" class="text-gray-700 hover:text-blue-500">Produk & Layanan</a>
+        <a href="tentang-kami.html" class="text-gray-700 hover:text-blue-500">Tentang Kami</a>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto mt-6">
+      <section class="bg-white p-6 shadow-md">
+        <h2 class="text-xl font-semibold mb-4">Form Booking Service</h2>
+
+        <form id="booking-form" class="bg-white p-6 shadow-md">
+          <!-- Jenis Servis -->
+          <div class="mb-4">
+            <label for="jenis-servis" class="block text-sm font-medium text-gray-700"
+              >Jenis Servis</label
+            >
+            <select
+              id="jenis-servis"
+              name="jenis-servis"
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+              <option value="service-besar">Service Besar</option>
+              <option value="service-ringan">Service Ringan</option>
+              <option value="body-repair">Body Repair</option>
+            </select>
+          </div>
+
+          <!-- Jenis Kendaraan -->
+          <div class="mb-4">
+            <label for="jenis-kendaraan" class="block text-sm font-medium text-gray-700"
+              >Jenis Kendaraan</label
+            >
+            <select
+              id="jenis-kendaraan"
+              name="jenis-kendaraan"
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+              <option value="mobil">Mobil</option>
+              <option value="motor">Motor</option>
+              <option value="truk">Truk</option>
+            </select>
+          </div>
+
+          <!-- Deskripsi Kebutuhan -->
+          <div class="mb-4">
+            <label for="deskripsi-kebutuhan" class="block text-sm font-medium text-gray-700"
+              >Deskripsi Kebutuhan</label
+            >
+            <textarea
+              id="deskripsi-kebutuhan"
+              name="deskripsi-kebutuhan"
+              rows="4"
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
+          </div>
+
+          <!-- Jam, Tanggal Service -->
+          <div class="mb-4">
+            <label for="jam-tanggal" class="block text-sm font-medium text-gray-700"
+              >Jam, Tanggal Service</label
+            >
+            <input
+              type="datetime-local"
+              id="jam-tanggal"
+              name="jam-tanggal"
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" />
+          </div>
+
+          <!-- Request Montir -->
+          <div class="mb-4">
+            <label for="request-montir" class="block text-sm font-medium text-gray-700"
+              >Request Montir</label
+            >
+            <select
+              id="request-montir"
+              name="request-montir"
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+              <option value="montir-1">Abdul Munkar</option>
+              <option value="montir-2">Michael Abel</option>
+              <option value="montir-3">Hayer Langdar</option>
+            </select>
+          </div>
+
+          <!-- Kategori Peminjam -->
+          <div class="mb-4">
+            <label for="kategori-peminjam" class="block text-sm font-medium text-gray-700"
+              >Kategori Peminjam</label
+            >
+            <select
+              id="kategori-peminjam"
+              name="kategori-peminjam"
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+              <option value="pribadi">Pribadi</option>
+              <option value="perusahaan">Perusahaan</option>
+            </select>
+          </div>
+
+          <!-- Telpon/HP -->
+          <div class="mb-4">
+            <label for="telpon" class="block text-sm font-medium text-gray-700">Telpon/HP</label>
+            <input
+              type="tel"
+              id="telpon"
+              name="telpon"
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" />
+          </div>
+
+          <!-- Email -->
+          <div class="mb-4">
+            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" />
+          </div>
+
+          <!-- Button Submit & Reset -->
+          <div class="flex justify-between">
+            <button
+              type="submit"
+              class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none">
+              Submit
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-200 py-4 mt-6">
+      <div class="container mx-auto text-center">
+        <p>Develop By Mahasiswa STT-NF &copy;2025</p>
+      </div>
+    </footer>
+
+    <script>
+      // Get the form element
+      const form = document.getElementById("booking-form");
+
+      // Add submit event listener
+      form.addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        // Display SweetAlert2 success message
+        Swal.fire({
+          title: "Booking Berhasil!",
+          text: "Terima kasih telah melakukan pemesanan layanan di Bengkel SiGanteng.",
+          icon: "success",
+          confirmButtonText: "OK",
+        }).then(() => {
+          window.location.href = "home.html";
+        });
+      });
+    </script>
+  </body>
+</html>

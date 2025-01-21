@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bengkel SiGanteng</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="tailwind-o.css" rel="stylesheet" />
+  </head>
+
+  <body class="font-sans">
+    <!-- Header -->
+    <header class="bg-gray-100 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Bengkel SiGanteng</h1>
+        <div class="flex items-center space-x-4">
+          <input type="text" placeholder="search" class="border rounded px-2 py-1" />
+          <a href="login.html" class="text-blue-500">Login</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-gray-200 py-2">
+      <div class="container mx-auto flex space-x-4">
+        <a href="home.html" class="text-gray-700 hover:text-blue-500">Home</a>
+        <a href="produk-layanan.html" class="text-gray-700 hover:text-blue-500">Produk & Layanan</a>
+        <a href="tentang-kami.html" class="text-gray-700 hover:text-blue-500">Tentang Kami</a>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto mt-6">
+      <!-- Welcome Section -->
+      <section class="bg-white p-6 shadow-md">
+        <h2 class="text-xl font-semibold mb-4">Selamat Datang di Bengkel SiGanteng</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <!-- Layanan Servis -->
+          <div class="flex items-start space-x-4">
+            <img
+              src="https://asset.kompas.com/crops/f5jAyYssvIOObwMXYafMec6nbJE=/0x0:780x520/780x390/data/photo/2020/01/16/5e2016422ec12.jpg"
+              alt="Gambar Layanan Servis"
+              class="w-24 h-24 object-cover rounded" />
+            <div>
+              <h3 class="font-medium text-lg">Layanan Servis</h3>
+              <p class="text-gray-600 text-sm">
+                Kami menyediakan layanan servis kendaraan terbaik dengan tenaga ahli profesional
+                untuk memastikan kendaraan Anda tetap prima setiap saat.
+              </p>
+            </div>
+          </div>
+
+          <!-- Cara Booking Service -->
+          <div class="flex items-start space-x-4">
+            <img
+              src="https://auto2000.co.id/berita-dan-tips/_next/image?url=https%3A%2F%2Fastradigitaldigiroomuat.blob.core.windows.net%2Fstorage-uat-001%2Fservis_mobil.png&w=3840&q=75"
+              alt="Gambar Cara Booking"
+              class="w-24 h-24 object-cover rounded" />
+            <div>
+              <h3 class="font-medium text-lg">Cara Booking Service</h3>
+              <p class="text-gray-600 text-sm">
+                Pesan layanan servis dengan mudah! Cukup hubungi kami melalui WhatsApp, telepon,
+                atau kunjungi halaman booking kami untuk memilih jadwal yang sesuai dengan kebutuhan
+                Anda.
+              </p>
+            </div>
+          </div>
+
+          <!-- Pembayaran yang Nyaman -->
+          <div class="flex items-start space-x-4">
+            <img
+              src="https://storage.googleapis.com/flip-prod-mktg-strapi/media-library/apa_saja_yang_termasuk_e_wallet_eec27cb6bd/apa_saja_yang_termasuk_e_wallet_eec27cb6bd.png"
+              alt="Gambar Pembayaran Nyaman"
+              class="w-24 h-24 object-cover rounded" />
+            <div>
+              <h3 class="font-medium text-lg">Pembayaran yang Nyaman</h3>
+              <p class="text-gray-600 text-sm">
+                Nikmati kemudahan pembayaran dengan berbagai metode, mulai dari tunai, transfer
+                bank, hingga dompet digital seperti OVO, GoPay, dan lainnya. Pilih yang paling
+                nyaman untuk Anda!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="mt-6">
+        <h2 class="text-xl font-semibold mb-4">Produk Layanan Kami</h2>
+        <div class="grid grid-cols-3 gap-6">
+          <!-- Service Besar -->
+          <a
+            href="service-besar.html"
+            class="block border rounded shadow-md p-4 hover:bg-blue-50 hover:shadow-lg transition duration-300">
+            <h3 class="mb-2 font-medium hover:text-blue-500">Service Besar</h3>
+            <img
+              src="https://s.garasi.id/c1200x675/q99/article/8ba75a0c-ad8c-4d21-a5cf-c538006077c3.jpeg"
+              class="w-full object-cover h-50 mb-2 rounded"
+              alt="Service Besar" />
+            <p class="text-sm text-gray-500 hover:text-blue-400">
+              900 orang menggunakan layanan ini
+            </p>
+          </a>
+
+          <!-- Service Ringan -->
+          <a
+            href="service-ringan.html"
+            class="block border rounded shadow-md p-4 hover:bg-blue-50 hover:shadow-lg transition duration-300">
+            <h3 class="mb-2 font-medium hover:text-blue-500">Service Ringan</h3>
+            <img
+              src="https://xmxpc86yeg.otospector.co.id/wp-content/uploads/2023/09/Screen-Shot-2023-09-23-at-12.19.44.png"
+              class="w-full object-cover h-50 mb-2 rounded"
+              alt="Service Ringan" />
+            <p class="text-sm text-gray-500 hover:text-blue-400">
+              1200 orang menggunakan layanan ini
+            </p>
+          </a>
+
+          <!-- Body Repair -->
+          <a
+            href="body-repair.html"
+            class="block border rounded shadow-md p-4 hover:bg-blue-50 hover:shadow-lg transition duration-300">
+            <h3 class="mb-2 font-medium hover:text-blue-500">Body Repair</h3>
+            <img
+              src="https://blog-media.lifepal.co.id/app/uploads/sites/3/2021/09/15142012/shutterstock_460996369-768x432.jpg"
+              class="w-full object-cover h-50 mb-2 rounded"
+              alt="Body Repair" />
+            <p class="text-sm text-gray-500 hover:text-blue-400">
+              250 orang menggunakan layanan ini
+            </p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-200 py-4 mt-6">
+      <div class="container mx-auto text-center">
+        <p>Develop By Mahasiswa STT-NF &copy;2025</p>
+      </div>
+    </footer>
+  </body>
+</html>

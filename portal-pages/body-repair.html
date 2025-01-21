@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Body Repair - Bengkel SiGanteng</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="tailwind-o.css" rel="stylesheet" />
+    <!-- SwiperJS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  </head>
+
+  <body class="font-sans">
+    <!-- Header -->
+    <header class="bg-gray-100 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Bengkel SiGanteng</h1>
+        <div class="flex items-center space-x-4">
+          <input type="text" placeholder="search" class="border rounded px-2 py-1" />
+          <a href="login.html" class="text-blue-500">Login</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-gray-200 py-2">
+      <div class="container mx-auto flex space-x-4">
+        <a href="home.html" class="text-gray-700 hover:text-blue-500">Home</a>
+        <a href="produk-layanan.html" class="text-gray-700 hover:text-blue-500">Produk & Layanan</a>
+        <a href="tentang-kami.html" class="text-gray-700 hover:text-blue-500">Tentang Kami</a>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto mt-6">
+      <section class="bg-white p-6 shadow-md">
+        <h2 class="text-xl font-semibold mb-4">Body Repair</h2>
+
+        <!-- Slider Gambar Body Repair -->
+        <div class="swiper-container mb-12 overflow-hidden">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/07/24/Salinan-dari-foto-content-13-Fisqiyyah-Awawin-1-2131673127.png"
+                class="w-full object-cover h-96 rounded"
+                alt="Body Repair 1" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://www.wrapstation.id/wp-content/uploads/2024/10/Body-repair-mobil-1080x675.jpg"
+                class="w-full object-cover h-96 rounded"
+                alt="Body Repair 2" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://suzukitrada.id/assets/img/body-repair/slider/6.jpg?1926698279"
+                class="w-full object-cover h-96 rounded"
+                alt="Body Repair 3" />
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <p class="text-gray-600 text-sm mb-4">
+          Body Repair adalah layanan perbaikan bodi kendaraan Anda, mulai dari perbaikan goresan
+          ringan, penyok, hingga perbaikan besar akibat kecelakaan. Kami menggunakan teknologi dan
+          bahan berkualitas tinggi untuk memastikan kendaraan Anda kembali seperti baru.
+        </p>
+
+        <h3 class="text-lg font-semibold mb-2">Detail yang Tercakup:</h3>
+        <ul class="list-disc pl-6 text-gray-600">
+          <li>Perbaikan goresan dan penyok kecil pada bodi kendaraan.</li>
+          <li>Perbaikan besar akibat kecelakaan atau benturan.</li>
+          <li>Penggantian dan pengecatan ulang bagian bodi kendaraan.</li>
+          <li>Perbaikan dan pengecatan ulang panel kendaraan.</li>
+          <li>Penyempurnaan tampilan bodi kendaraan agar kembali mulus.</li>
+        </ul>
+
+        <div class="text-center">
+          <a
+            href="service-booking.html"
+            class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none">
+            Booking Sekarang!
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-200 py-4 mt-6">
+      <div class="container mx-auto text-center">
+        <p>Develop By Mahasiswa STT-NF &copy;2025</p>
+      </div>
+    </footer>
+
+    <!-- SwiperJS Script -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      // Initialize Swiper
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+  </body>
+</html>
