@@ -150,16 +150,19 @@
                       <li class="list-inline-item">
                         <img alt="Avatar" class="table-avatar" src="../dist/img/avatar2.png">
                       </li>
+                      <li class="list-inline-item">
+                        <img alt="Avatar" class="table-avatar" src="../dist/img/avatar3.png">
+                      </li>
                     </ul>
                   </td>
                   <td class="project_progress">
                     
                   </td>
                   <td class="project-state">
-                    <span>-2</span>
+                    <span>-1</span>
                   </td>
                   <td class="project-actions text-right">
-                    <a class="btn btn-info btn-sm" href="edit-mekanik.php?id=2">
+                    <a class="btn btn-info btn-sm" href="edit-mekanik.php?id=1">
                       <i class="fas fa-pencil-alt">
                       </i>
                       Edit
@@ -192,19 +195,16 @@
                       <li class="list-inline-item">
                         <img alt="Avatar" class="table-avatar" src="../dist/img/avatar2.png">
                       </li>
-                      <li class="list-inline-item">
-                        <img alt="Avatar" class="table-avatar" src="../dist/img/avatar3.png">
-                      </li>
                     </ul>
                   </td>
                   <td class="project_progress">
                     
                   </td>
                   <td class="project-state">
-                    <span>-1</span>
+                    <span>-2</span>
                   </td>
                   <td class="project-actions text-right">
-                    <a class="btn btn-info btn-sm" href="edit-mekanik.php?id=3">
+                    <a class="btn btn-info btn-sm" href="edit-mekanik.php?id=1">
                       <i class="fas fa-pencil-alt">
                       </i>
                       Edit
