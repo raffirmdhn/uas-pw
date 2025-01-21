@@ -62,7 +62,7 @@
               <div class="row">
                 <div class="col-12">
                   <h4>
-                    <i class="fas fa-globe"></i> Bengkel Iqbal 😎
+                    <i class="fas fa-globe"></i> Bengkel Bermuda
                     <small class="float-right">Date: 2/10/2014</small>
                   </h4>
                 </div>
@@ -95,7 +95,7 @@
                       <td>Mogok</td>
                       <td>Service Ringan</td>
                       <td class="project-actions text-right">
-                          <a class="btn btn-info btn-sm" href="#">
+                          <a class="btn btn-info btn-sm" href="edit-transaksi.php?id=1">
                               <i class="fas fa-pencil-alt">
                               </i>
                               Edit
@@ -116,7 +116,7 @@
                       <td>Mesin Mati</td>
                       <td>Service Berat</td>
                       <td class="project-actions text-right">
-                          <a class="btn btn-info btn-sm" href="#">
+                          <a class="btn btn-info btn-sm" href="edit-transaksi.php?id=1">
                               <i class="fas fa-pencil-alt">
                               </i>
                               Edit
@@ -137,7 +137,7 @@
                       <td>Ai Radiator Bocor</td>
                       <td>Service Ringan</td>
                       <td class="project-actions text-right">
-                          <a class="btn btn-info btn-sm" href="#">
+                          <a class="btn btn-info btn-sm" href="edit-transaksi.php?id=1">
                               <i class="fas fa-pencil-alt">
                               </i>
                               Edit
@@ -158,11 +158,11 @@
                       <td>AC mati</td>
                       <td>Service Ringan</td>
                       <td class="project-actions text-right">
-                          <a class="btn btn-info btn-sm" href="#">
-                              <i class="fas fa-pencil-alt">
-                              </i>
+                          <a class="btn btn-info btn-sm" href="edit-transaksi.php?id=1">
+                              <i class="fas fa-pencil-alt"></i>
                               Edit
                           </a>
+
                           <a class="btn btn-danger btn-sm" href="#">
                               <i class="fas fa-trash">
                               </i>
