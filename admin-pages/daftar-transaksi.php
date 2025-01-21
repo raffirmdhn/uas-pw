@@ -58,22 +58,22 @@
             </div>
           </div>
           <div class="invoice p-3 mb-3">
-              <!-- title row -->
-              <div class="row">
-                <div class="col-12">
-                  <h4>
-                    <i class="fas fa-globe"></i> Bengkel Iqbal 😎
-                    <small class="float-right">Date: 2/10/2014</small>
-                  </h4>
-                </div>
-                <!-- /.col -->
+            <!-- title row -->
+            <div class="row">
+              <div class="col-12">
+                <h4>
+                  <i class="fas fa-globe"></i> Bengkel Bermuda
+                  <small class="float-right">Date: 2/10/2014</small>
+                </h4>
               </div>
+              <!-- /.col -->
+            </div>
 
-              <!-- Table row -->
-              <div class="row">
-                <div class="col-12 table-responsive">
-                  <table class="table table-striped">
-                    <thead>
+            <!-- Table row -->
+            <div class="row">
+              <div class="col-12 table-responsive">
+                <table class="table table-striped">
+                  <thead>
                     <tr>
                       <th>No</th>
                       <th>Tanggal</th>
@@ -84,8 +84,8 @@
                       <th>Layanan</th>
                       <th>Action</th>
                     </tr>
-                    </thead>
-                    <tbody>
+                  </thead>
+                  <tbody>
                     <tr>
                       <td>1</td>
                       <td>12 Desember 2024</td>
@@ -95,16 +95,16 @@
                       <td>Mogok</td>
                       <td>Service Ringan</td>
                       <td class="project-actions text-right">
-                          <a class="btn btn-info btn-sm" href="#">
-                              <i class="fas fa-pencil-alt">
-                              </i>
-                              Edit
-                          </a>
-                          <a class="btn btn-danger btn-sm" href="#">
-                              <i class="fas fa-trash">
-                              </i>
-                              Delete
-                          </a>
+                        <a class="btn btn-info btn-sm" href="edit-transaksi.php?id=1">
+                          <i class="fas fa-pencil-alt">
+                          </i>
+                          Edit
+                        </a>
+                        <a class="btn btn-danger btn-sm" href="#">
+                          <i class="fas fa-trash">
+                          </i>
+                          Delete
+                        </a>
                       </td>
                     </tr>
                     <tr>
@@ -116,16 +116,16 @@
                       <td>Mesin Mati</td>
                       <td>Service Berat</td>
                       <td class="project-actions text-right">
-                          <a class="btn btn-info btn-sm" href="#">
-                              <i class="fas fa-pencil-alt">
-                              </i>
-                              Edit
-                          </a>
-                          <a class="btn btn-danger btn-sm" href="#">
-                              <i class="fas fa-trash">
-                              </i>
-                              Delete
-                          </a>
+                        <a class="btn btn-info btn-sm" href="edit-transaksi.php?id=1">
+                          <i class="fas fa-pencil-alt">
+                          </i>
+                          Edit
+                        </a>
+                        <a class="btn btn-danger btn-sm" href="#">
+                          <i class="fas fa-trash">
+                          </i>
+                          Delete
+                        </a>
                       </td>
                     </tr>
                     <tr>
@@ -137,16 +137,16 @@
                       <td>Ai Radiator Bocor</td>
                       <td>Service Ringan</td>
                       <td class="project-actions text-right">
-                          <a class="btn btn-info btn-sm" href="#">
-                              <i class="fas fa-pencil-alt">
-                              </i>
-                              Edit
-                          </a>
-                          <a class="btn btn-danger btn-sm" href="#">
-                              <i class="fas fa-trash">
-                              </i>
-                              Delete
-                          </a>
+                        <a class="btn btn-info btn-sm" href="edit-transaksi.php?id=1">
+                          <i class="fas fa-pencil-alt">
+                          </i>
+                          Edit
+                        </a>
+                        <a class="btn btn-danger btn-sm" href="#">
+                          <i class="fas fa-trash">
+                          </i>
+                          Delete
+                        </a>
                       </td>
                     </tr>
                     <tr>
@@ -158,41 +158,41 @@
                       <td>AC mati</td>
                       <td>Service Ringan</td>
                       <td class="project-actions text-right">
-                          <a class="btn btn-info btn-sm" href="#">
-                              <i class="fas fa-pencil-alt">
-                              </i>
-                              Edit
-                          </a>
-                          <a class="btn btn-danger btn-sm" href="#">
-                              <i class="fas fa-trash">
-                              </i>
-                              Delete
-                          </a>
+                        <a class="btn btn-info btn-sm" href="edit-transaksi.php?id=1">
+                          <i class="fas fa-pencil-alt"></i>
+                          Edit
+                        </a>
+
+                        <a class="btn btn-danger btn-sm" href="#">
+                          <i class="fas fa-trash">
+                          </i>
+                          Delete
+                        </a>
                       </td>
 
                     </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!-- /.col -->
+                  </tbody>
+                </table>
               </div>
-              <!-- /.row -->
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
 
-              
 
-              <!-- this row will not appear when printing -->
-              <div class="row no-print">
-                <div class="col-12">
-                  <a href="invoice-print.html" rel="noopener" target="_blank" class="btn btn-default"><i class="fas fa-print"></i> Print</a>
-                  <button type="button" class="btn btn-success float-right"><i class="far fa-credit-card"></i> Submit
-                    Payment
-                  </button>
-                  <button type="button" class="btn btn-primary float-right" style="margin-right: 5px;">
-                    <i class="fas fa-download"></i> Generate PDF
-                  </button>
-                </div>
+
+            <!-- this row will not appear when printing -->
+            <div class="row no-print">
+              <div class="col-12">
+                <a href="invoice-print.html" rel="noopener" target="_blank" class="btn btn-default"><i class="fas fa-print"></i> Print</a>
+                <button type="button" class="btn btn-success float-right"><i class="far fa-credit-card"></i> Submit
+                  Payment
+                </button>
+                <button type="button" class="btn btn-primary float-right" style="margin-right: 5px;">
+                  <i class="fas fa-download"></i> Generate PDF
+                </button>
               </div>
             </div>
+          </div>
           <!-- /.card-body -->
         </div>
         <!-- /.card -->
