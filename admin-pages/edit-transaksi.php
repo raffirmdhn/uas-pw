@@ -85,7 +85,7 @@
         
                                     <div class="input-group">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text"><i class="fa-solid fa-barcode"></i></span>
+                                            <span class="input-group-text"><i class="fas fa-stream"></i></span>
                                         </div>
                                         <input type="text" class="form-control">
                                     </div>
@@ -96,33 +96,50 @@
                                 <!-- phone mask -->
                                 <div class="form-group">
                                     <label>Kategori</label>
-        
+                                
                                     <div class="input-group">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text"><i class="fa-solid fa-car"></i></span>
+                                            <span class="input-group-text"><i class="fas fa-car"></i></span>
                                         </div>
-                                        <select class="form-control">Motor</select> 
-                                        <select class="form-control">Motor</select> 
-                                        <select class="form-control">Minibus</select> 
+                                        <select class="form-control">
+                                            <option value="motor">Motor</option>
+                                            <option value="minibus">Minibus</option>
+                                            <option value="mobil-lainnya">Mobil Lainnya</option>
+                                        </select>
                                     </div>
                                     <!-- /.input group -->
                                 </div>
                                 <!-- /.form group -->
-        
+                                
                                 <!-- IP mask -->
                                 <div class="form-group">
-                                    <label>IP mask:</label>
+                                    <label>Keluhan:</label>
         
                                     <div class="input-group">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text"><i class="fas fa-laptop"></i></span>
+                                            <span class="input-group-text"><i class="fas fa-question"></i></span>
                                         </div>
                                         <input type="text" class="form-control" data-inputmask="'alias': 'ip'" data-mask>
                                     </div>
                                     <!-- /.input group -->
                                 </div>
                                 <!-- /.form group -->
-        
+                                <div class="form-group">
+                                    <label>Layanan:</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fas fa-tools"></i></span>
+                                        </div>
+                                        <select class="form-control">
+                                            <option value="ServisRingan">Service Ringan</option>
+                                            <option value="ServiceSedang">Service Sedang</option>
+                                            <option value="ServiceBerat">Service Berat</option>
+                                        </select>
+                                    </div>
+                                    <!-- /.input group -->
+                                </div>
+                                <!-- /.form group -->
+                                
                             </div>
                             <!-- /.card-body -->
                         </div>
