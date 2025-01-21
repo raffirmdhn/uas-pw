@@ -57,201 +57,142 @@
               </button>
             </div>
           </div>
-          <div class="card-body">
-            <table class="table table-striped projects">
-              <thead>
-                <tr>
-                  <th style="width: 1%">
-                    #
-                  </th>
-                  <th style="width: 20%">
-                    Project Name
-                  </th>
-                  <th style="width: 30%">
-                    Team Members
-                  </th>
-                  <th>
-                    Project Progress
-                  </th>
-                  <th style="width: 8%" class="text-center">
-                    Status
-                  </th>
-                  <th style="width: 20%">
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    #
-                  </td>
-                  <td>
-                    <a>
-                      AdminLTE v3
-                    </a>
-                    <br />
-                    <small>
-                      Created 01.01.2019
-                    </small>
-                  </td>
-                  <td>
-                    <ul class="list-inline">
-                      <li class="list-inline-item">
-                        <img alt="Avatar" class="table-avatar" src="../dist/img/avatar.png">
-                      </li>
-                      <li class="list-inline-item">
-                        <img alt="Avatar" class="table-avatar" src="../dist/img/avatar2.png">
-                      </li>
-                      <li class="list-inline-item">
-                        <img alt="Avatar" class="table-avatar" src="../dist/img/avatar3.png">
-                      </li>
-                      <li class="list-inline-item">
-                        <img alt="Avatar" class="table-avatar" src="../dist/img/avatar4.png">
-                      </li>
-                    </ul>
-                  </td>
-                  <td class="project_progress">
-                    <div class="progress progress-sm">
-                      <div class="progress-bar bg-green" role="progressbar" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100" style="width: 57%">
-                      </div>
-                    </div>
-                    <small>
-                      57% Complete
-                    </small>
-                  </td>
-                  <td class="project-state">
-                    <span class="badge badge-success">Success</span>
-                  </td>
-                  <td class="project-actions text-right">
-                    <a class="btn btn-primary btn-sm" href="#">
-                      <i class="fas fa-folder">
-                      </i>
-                      View
-                    </a>
-                    <a class="btn btn-info btn-sm" href="#">
-                      <i class="fas fa-pencil-alt">
-                      </i>
-                      Edit
-                    </a>
-                    <a class="btn btn-danger btn-sm" href="#">
-                      <i class="fas fa-trash">
-                      </i>
-                      Delete
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    #
-                  </td>
-                  <td>
-                    <a>
-                      AdminLTE v3
-                    </a>
-                    <br />
-                    <small>
-                      Created 01.01.2019
-                    </small>
-                  </td>
-                  <td>
-                    <ul class="list-inline">
-                      <li class="list-inline-item">
-                        <img alt="Avatar" class="table-avatar" src="../dist/img/avatar.png">
-                      </li>
-                      <li class="list-inline-item">
-                        <img alt="Avatar" class="table-avatar" src="../dist/img/avatar2.png">
-                      </li>
-                    </ul>
-                  </td>
-                  <td class="project_progress">
-                    <div class="progress progress-sm">
-                      <div class="progress-bar bg-green" role="progressbar" aria-valuenow="47" aria-valuemin="0" aria-valuemax="100" style="width: 47%">
-                      </div>
-                    </div>
-                    <small>
-                      47% Complete
-                    </small>
-                  </td>
-                  <td class="project-state">
-                    <span class="badge badge-success">Success</span>
-                  </td>
-                  <td class="project-actions text-right">
-                    <a class="btn btn-primary btn-sm" href="#">
-                      <i class="fas fa-folder">
-                      </i>
-                      View
-                    </a>
-                    <a class="btn btn-info btn-sm" href="#">
-                      <i class="fas fa-pencil-alt">
-                      </i>
-                      Edit
-                    </a>
-                    <a class="btn btn-danger btn-sm" href="#">
-                      <i class="fas fa-trash">
-                      </i>
-                      Delete
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    #
-                  </td>
-                  <td>
-                    <a>
-                      AdminLTE v3
-                    </a>
-                    <br />
-                    <small>
-                      Created 01.01.2019
-                    </small>
-                  </td>
-                  <td>
-                    <ul class="list-inline">
-                      <li class="list-inline-item">
-                        <img alt="Avatar" class="table-avatar" src="../dist/img/avatar.png">
-                      </li>
-                      <li class="list-inline-item">
-                        <img alt="Avatar" class="table-avatar" src="../dist/img/avatar2.png">
-                      </li>
-                      <li class="list-inline-item">
-                        <img alt="Avatar" class="table-avatar" src="../dist/img/avatar3.png">
-                      </li>
-                    </ul>
-                  </td>
-                  <td class="project_progress">
-                    <div class="progress progress-sm">
-                      <div class="progress-bar bg-green" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100" style="width: 77%">
-                      </div>
-                    </div>
-                    <small>
-                      77% Complete
-                    </small>
-                  </td>
-                  <td class="project-state">
-                    <span class="badge badge-success">Success</span>
-                  </td>
-                  <td class="project-actions text-right">
-                    <a class="btn btn-primary btn-sm" href="#">
-                      <i class="fas fa-folder">
-                      </i>
-                      View
-                    </a>
-                    <a class="btn btn-info btn-sm" href="#">
-                      <i class="fas fa-pencil-alt">
-                      </i>
-                      Edit
-                    </a>
-                    <a class="btn btn-danger btn-sm" href="#">
-                      <i class="fas fa-trash">
-                      </i>
-                      Delete
-                    </a>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          <div class="invoice p-3 mb-3">
+              <!-- title row -->
+              <div class="row">
+                <div class="col-12">
+                  <h4>
+                    <i class="fas fa-globe"></i> Bengkel Iqbal 😎
+                    <small class="float-right">Date: 2/10/2014</small>
+                  </h4>
+                </div>
+                <!-- /.col -->
+              </div>
+
+              <!-- Table row -->
+              <div class="row">
+                <div class="col-12 table-responsive">
+                  <table class="table table-striped">
+                    <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>Tanggal</th>
+                      <th>Pelanggan</th>
+                      <th>Nopol</th>
+                      <th>Kategori</th>
+                      <th>Keluhan</th>
+                      <th>Layanan</th>
+                      <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>12 Desember 2024</td>
+                      <td>Ucup</td>
+                      <td>B23OAe</td>
+                      <td>Motor</td>
+                      <td>Mogok</td>
+                      <td>Service Ringan</td>
+                      <td class="project-actions text-right">
+                          <a class="btn btn-info btn-sm" href="#">
+                              <i class="fas fa-pencil-alt">
+                              </i>
+                              Edit
+                          </a>
+                          <a class="btn btn-danger btn-sm" href="#">
+                              <i class="fas fa-trash">
+                              </i>
+                              Delete
+                          </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>12 Desember 2024</td>
+                      <td>Bagus</td>
+                      <td>F7890AA</td>
+                      <td>Motor</td>
+                      <td>Mesin Mati</td>
+                      <td>Service Berat</td>
+                      <td class="project-actions text-right">
+                          <a class="btn btn-info btn-sm" href="#">
+                              <i class="fas fa-pencil-alt">
+                              </i>
+                              Edit
+                          </a>
+                          <a class="btn btn-danger btn-sm" href="#">
+                              <i class="fas fa-trash">
+                              </i>
+                              Delete
+                          </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>13 Desember 2024</td>
+                      <td>Ujang</td>
+                      <td>A8997RI</td>
+                      <td>Mobil</td>
+                      <td>Ai Radiator Bocor</td>
+                      <td>Service Ringan</td>
+                      <td class="project-actions text-right">
+                          <a class="btn btn-info btn-sm" href="#">
+                              <i class="fas fa-pencil-alt">
+                              </i>
+                              Edit
+                          </a>
+                          <a class="btn btn-danger btn-sm" href="#">
+                              <i class="fas fa-trash">
+                              </i>
+                              Delete
+                          </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>13 Desember 2024</td>
+                      <td>Walter White</td>
+                      <td>C0000KK</td>
+                      <td>Minibus</td>
+                      <td>AC mati</td>
+                      <td>Service Ringan</td>
+                      <td class="project-actions text-right">
+                          <a class="btn btn-info btn-sm" href="#">
+                              <i class="fas fa-pencil-alt">
+                              </i>
+                              Edit
+                          </a>
+                          <a class="btn btn-danger btn-sm" href="#">
+                              <i class="fas fa-trash">
+                              </i>
+                              Delete
+                          </a>
+                      </td>
+
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- /.col -->
+              </div>
+              <!-- /.row -->
+
+              
+
+              <!-- this row will not appear when printing -->
+              <div class="row no-print">
+                <div class="col-12">
+                  <a href="invoice-print.html" rel="noopener" target="_blank" class="btn btn-default"><i class="fas fa-print"></i> Print</a>
+                  <button type="button" class="btn btn-success float-right"><i class="far fa-credit-card"></i> Submit
+                    Payment
+                  </button>
+                  <button type="button" class="btn btn-primary float-right" style="margin-right: 5px;">
+                    <i class="fas fa-download"></i> Generate PDF
+                  </button>
+                </div>
+              </div>
+            </div>
           <!-- /.card-body -->
         </div>
         <!-- /.card -->

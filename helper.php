@@ -1,6 +1,6 @@
 <?php
 
-$BASE_URL = "/UAS_PW_BENGKEL";
+$BASE_URL = "/uas-pw";
 
 function isActivePage($path)
 {
