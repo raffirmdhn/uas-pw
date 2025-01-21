@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrasi User</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+      .card {
+        border-radius: 10px;
+      }
+      .card-header {
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
+      }
+      .form-control {
+        border-radius: 10px;
+      }
+      .btn {
+        border-radius: 10px;
+      }
+      .container {
+        max-width: 500px;
+        margin-top: 50px;
+      }
+      .form-group label {
+        font-weight: 600;
+      }
+      .text-primary {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="text-primary mb-4 text-center">Registrasi User</h3>
+      <div class="card shadow-lg">
+        <div class="card-header text-center">
+          <h4 class="mb-0">Buat Akun Baru</h4>
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="namaLengkap">Nama Lengkap</label>
+              <input
+                type="text"
+                class="form-control"
+                id="namaLengkap"
+                placeholder="Masukkan nama lengkap"
+                required />
+            </div>
+            <div class="form-group">
+              <label for="Email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="Email"
+                placeholder="Masukkan Alamat Email"
+                required />
+            </div>
+            <div class="form-group">
+              <label for="Username">Username</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Username"
+                placeholder="Masukkan Username"
+                required />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder="Masukkan Password"
+                required />
+            </div>
+            <div class="form-group">
+              <label for="cekPassword">Cek Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="cekPassword"
+                placeholder="Masukkan kembali Password"
+                required />
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Daftar</button>
+          </form>
+          <a href="login.html" class="d-block mt-3">Masuk</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
