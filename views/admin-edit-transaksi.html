@@ -71,6 +71,13 @@
               <i class="fas fa-expand-arrows-alt"></i>
             </a>
           </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="home.html" onclick="return confirm('logout?')">
+              Logout
+              <i class="fas fa-sign-out-alt"></i>
+            </a>
+          </li>
         </ul>
       </nav>
       <!-- /.navbar -->
@@ -154,7 +161,8 @@
                         <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
                       </div>
                       <input
-                        type="text"
+                        value="2024-12-12"
+                        type="date"
                         class="form-control"
                         data-inputmask-alias="datetime"
                         data-inputmask-inputformat="dd/mm/yyyy"
@@ -171,7 +179,7 @@
                       <div class="input-group-prepend">
                         <span class="input-group-text"><i class="fas fa-users"></i></span>
                       </div>
-                      <input type="text" class="form-control" />
+                      <input type="text" class="form-control" value="Ucup" />
                     </div>
                     <!-- /.input group -->
                   </div>
@@ -185,7 +193,7 @@
                       <div class="input-group-prepend">
                         <span class="input-group-text"><i class="fas fa-stream"></i></span>
                       </div>
-                      <input type="text" class="form-control" />
+                      <input type="text" class="form-control" value="B23OAe" />
                     </div>
                     <!-- /.input group -->
                   </div>
@@ -221,7 +229,8 @@
                         type="text"
                         class="form-control"
                         data-inputmask="'alias': 'ip'"
-                        data-mask />
+                        data-mask
+                        value="Mogok" />
                     </div>
                     <!-- /.input group -->
                   </div>
@@ -241,12 +250,13 @@
                     <!-- /.input group -->
                   </div>
                   <!-- /.form group -->
-                  <button
+                  <a
+                    href="admin-daftar-transaksi.html"
                     type="button"
                     class="btn btn-primary float-right"
                     style="margin-right: 5px">
                     <i></i> Done
-                  </button>
+                  </a>
                 </div>
                 <!-- /.card-body -->
               </div>

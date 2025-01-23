@@ -71,6 +71,13 @@
               <i class="fas fa-expand-arrows-alt"></i>
             </a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="home.html" onclick="return confirm('logout?')">
+              Logout
+              <i class="fas fa-sign-out-alt"></i>
+            </a>
+          </li>
         </ul>
       </nav>
       <!-- /.navbar -->
@@ -215,7 +222,10 @@
                             <i class="fas fa-pencil-alt"> </i>
                             Edit
                           </a>
-                          <a class="btn btn-danger btn-sm" href="#">
+                          <a
+                            class="btn btn-danger btn-sm"
+                            href="#"
+                            onclick="confirm('Hapus Daftar Transaksi?') && alert('Mekanik Daftar Transaksi berhasil dihapus!')">
                             <i class="fas fa-trash"> </i>
                             Delete
                           </a>

@@ -71,6 +71,13 @@
               <i class="fas fa-expand-arrows-alt"></i>
             </a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="home.html" onclick="return confirm('logout?')">
+              Logout
+              <i class="fas fa-sign-out-alt"></i>
+            </a>
+          </li>
         </ul>
       </nav>
       <!-- /.navbar -->
@@ -154,6 +161,7 @@
                     class="form-control"
                     id="nama_mekanik"
                     name="nama_mekanik"
+                    value="Team Hore"
                     placeholder="Masukkan Nama Mekanik" />
                 </div>
 
@@ -180,7 +188,8 @@
                     name="Skill"
                     placeholder="Masukkan Deskripsi Mekanik"
                     rows="4">
-Deskripsi Mekanik</textarea
+Mekanik profesional dengan pengalaman lebih dari 5 tahun dalam menangani perbaikan mesin, sistem kelistrikan, dan body repair kendaraan. Menguasai analisis diagnostik, penggantian komponen, dan perawatan kendaraan secara menyeluruh. Berkomitmen untuk memberikan layanan berkualitas tinggi dan kepuasan pelanggan.
+                    </textarea
                   >
                 </div>
 
@@ -193,7 +202,8 @@ Deskripsi Mekanik</textarea
                         class="form-check-input"
                         id="SSS"
                         name="kemampuan[]"
-                        value="SSS" />
+                        value="SSS"
+                        checked />
                       <label class="form-check-label" for="SSS">SSS</label>
                     </div>
                     <div class="form-check me-4">
@@ -219,7 +229,12 @@ Deskripsi Mekanik</textarea
 
                 <div class="form-group">
                   <label for="tanggal_lahir">Tanggal Lahir</label>
-                  <input type="date" class="form-control" id="tanggal_lahir" name="tanggal_lahir" />
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="tanggal_lahir"
+                    name="tanggal_lahir"
+                    value="2000-01-01" />
                 </div>
 
                 <div class="form-group">
@@ -231,6 +246,7 @@ Deskripsi Mekanik</textarea
                     name="nomor_telepon"
                     placeholder="Masukkan Nomor Telepon +62"
                     pattern="[0-9]{10,15}"
+                    value="+6288123198239"
                     required />
                   <small>Masukkan nomor telepon tanpa spasi dengan awalan +62</small>
                 </div>
@@ -243,12 +259,13 @@ Deskripsi Mekanik</textarea
               <!-- /.card-body -->
 
               <div class="card-footer">
-                <button
+                <a
+                  href="admin-daftar-mekanik.html"
                   type="submit"
                   class="btn btn-primary btn-sm"
                   onclick="return confirm('Apakah Anda yakin ingin menyimpan?') && alert('Form berhasil disimpan!')">
                   Simpan
-                </button>
+                </a>
               </div>
             </form>
           </div>

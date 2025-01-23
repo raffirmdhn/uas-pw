@@ -44,7 +44,7 @@
           <h4>Login</h4>
         </div>
         <div class="card-body">
-          <form onsubmit="return login(e)">
+          <form id="form-login">
             <div class="form-group">
               <label for="username">Username</label>
               <input
@@ -65,17 +65,31 @@
             </div>
             <button type="submit" class="btn btn-primary btn-block">Login</button>
           </form>
-          <a href="registrasi.html" class="d-block mt-3">Buat Akun</a>
+          <div class="d-flex justify-content-between mt-3">
+            <a href="registrasi.html" class="d-block">Buat Akun</a>
+            <a href="home.html" class="d-block">Kembali ke Homepage</a>
+          </div>
         </div>
       </div>
     </div>
 
     <script>
-      function login(e) {
-        e.preventDefault()
-        window.location.href = "admin-daftar-transaksi.html";
-      }
+      document.addEventListener("DOMContentLoaded", function (e) {
+        const formLogin = document.getElementById("form-login");
+        formLogin.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const formData = new FormData(e.currentTarget);
+          const username = formData.get("username");
+          const password = formData.get("password");
+
+          if (username === "admin" && password === "admin123") {
+            alert("Login Berhasil, anda akan diarahkan ke Dashboard Admin");
+            window.location.href = "admin-daftar-transaksi.html";
+          } else {
+            alert("Username atau Password tidak valid!");
+          }
+        });
+      });
     </script>
-    <script src="autentikasi.js"></script>
   </body>
 </html>
