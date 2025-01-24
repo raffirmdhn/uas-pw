@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <title>Bengkel SiGanteng</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="tailwind-o.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   </head>
 
   <body class="font-sans">
@@ -30,9 +31,49 @@
 
     <!-- Main Content -->
     <main class="container mx-auto mt-6">
+      <!-- Jumbotron Carousel -->
+      <section class="relative mb-8">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide relative">
+              <img
+                src="https://asset.kompas.com/crops/f5jAyYssvIOObwMXYafMec6nbJE=/0x0:780x520/780x390/data/photo/2020/01/16/5e2016422ec12.jpg"
+                alt="Bengkel SiGanteng 1"
+                class="w-full h-96 object-cover" />
+              <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                <h2 class="text-4xl font-bold text-white">Selamat Datang di Bengkel SiGanteng</h2>
+              </div>
+            </div>
+            <div class="swiper-slide relative">
+              <img
+                src="https://auto2000.co.id/berita-dan-tips/_next/image?url=https%3A%2F%2Fastradigitaldigiroomuat.blob.core.windows.net%2Fstorage-uat-001%2Fservis_mobil.png&w=3840&q=75"
+                alt="Bengkel SiGanteng 2"
+                class="w-full h-96 object-cover" />
+              <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                <h2 class="text-4xl font-bold text-white">
+                  Pelayanan Terbaik untuk Kendaraan Anda
+                </h2>
+              </div>
+            </div>
+            <div class="swiper-slide relative">
+              <img
+                src="https://storage.googleapis.com/flip-prod-mktg-strapi/media-library/apa_saja_yang_termasuk_e_wallet_eec27cb6bd/apa_saja_yang_termasuk_e_wallet_eec27cb6bd.png"
+                alt="Bengkel SiGanteng 3"
+                class="w-full h-96 object-cover" />
+              <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                <h2 class="text-4xl font-bold text-white">
+                  Solusi Perawatan dan Perbaikan Terpercaya
+                </h2>
+              </div>
+            </div>
+          </div>
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
       <!-- Welcome Section -->
       <section class="bg-white p-6 shadow-md">
-        <h2 class="text-xl font-semibold mb-4">Selamat Datang di Bengkel SiGanteng</h2>
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
           <!-- Layanan Servis -->
           <div class="flex items-start space-x-4">
@@ -138,5 +179,24 @@
         <p>Develop By Mahasiswa STT-NF &copy;2025</p>
       </div>
     </footer>
+
+    <!-- SwiperJS Script -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      // Initialize Swiper
+      const swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
   </body>
 </html>
